@@ -1,0 +1,30 @@
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# dbt
+dbt/dissertation_dbt/target/
+dbt/dissertation_dbt/logs/
+dbt/dissertation_dbt/dbt_packages/
+
+# SQLMesh
+sqlmesh/dissertation_sqlmesh/.cache/
+sqlmesh/dissertation_sqlmesh/logs/
+sqlmesh/dissertation_sqlmesh/**/__pycache__/
+sqlmesh/dissertation_sqlmesh/**/*.pyc
+
+# DuckDB
+*.duckdb
+
+# Large model files
+outputs/models/*.nc
+outputs/models/*.pkl
+
+# OS
+.DS_Store

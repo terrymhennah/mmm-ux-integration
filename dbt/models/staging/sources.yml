@@ -1,0 +1,20 @@
+
+version: 2
+
+sources:
+  - name: dissertation
+    description: Dissertation MMM project data
+    tables:
+      - name: mmm_raw
+        description: Raw MMM dataset with media and UX metrics
+        columns:
+          - name: date
+            description: Week start date
+          - name: sales
+            description: Weekly revenue
+          - name: bounce_rate
+            description: Website bounce rate (UX metric)
+          - name: nps_score
+            description: Net Promoter Score (UX metric)
+          - name: conversion_rate
+            description: Website conversion rate (UX metric)

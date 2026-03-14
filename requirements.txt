@@ -1,0 +1,40 @@
+# Python dependencies for MMM-UX Integration
+# Install with: pip install -r requirements.txt
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Bayesian MMM
+pymc>=5.0.0
+pymc-marketing>=0.18.0
+arviz>=0.17.0
+
+# Google Meridian
+meridian>=1.5.0
+
+# Database connectivity
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+duckdb>=0.9.0
+
+# Data engineering
+dbt-core>=1.7.0
+dbt-postgres>=1.7.0
+dbt-duckdb>=1.7.0
+sqlmesh>=0.70.0
+
+# Jupyter
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+nbformat>=5.9.0
+nbconvert>=7.0.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0

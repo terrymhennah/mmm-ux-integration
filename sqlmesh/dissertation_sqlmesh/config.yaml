@@ -1,0 +1,23 @@
+gateways:
+  postgres:
+    connection:
+      type: postgres
+      host: localhost
+      user: admin
+      password: admin123
+      port: 5432
+      database: dissertation
+
+default_gateway: postgres
+
+model_defaults:
+  dialect: postgres
+  start: 2022-01-02
+  cron: '@weekly'
+
+linter:
+  enabled: true
+  rules:
+    - ambiguousorinvalidcolumn
+    - invalidselectstarexpansion
+    - noambiguousprojections

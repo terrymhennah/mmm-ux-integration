@@ -1,0 +1,10 @@
+
+gateways:
+  local:
+    connection:
+      type: duckdb
+      database: /home/terrymh/dissertation_mmm/data/dissertation.duckdb
+
+default_gateway: local
+model_defaults:
+  dialect: duckdb
