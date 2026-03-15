@@ -102,19 +102,18 @@ Raw CSV → PostgreSQL (storage) → dbt (transformation) → SQLMesh (schedulin
 ```
 
 ### Infrastructure
-| Component | Tool | Purpose |
-|---|---|---|
-| Virtual Machine | OrbStack (Ubuntu 25.10) | Isolated compute environment |
-| Database | PostgreSQL 17 | Raw and transformed data storage |
-| Analytical DB | DuckDB | In-notebook analytics |
-| Transformation | dbt-core 1.11 | Data modelling and testing |
-| Orchestration | SQLMesh | Pipeline scheduling and state management |
-| Notebooks | Jupyter Lab | Interactive development environment |
-| LLM (local) | Ollama + DeepSeek-R1 | Research assistance (offline) |
-| Analytics Engineering | [mmm-analytics-engineering](https://github.c
-  om/terrymhennah/mmm-analytics-engineering) | dbt + SQLMesh pipeline   
-  (standalone) |
-                                                                           
+  | Component | Tool | Purpose |
+  |---|---|---|
+  | Virtual Machine | OrbStack (Ubuntu 25.10) | Isolated compute environment |
+  | Database | PostgreSQL 17 | Raw and transformed data storage |
+  | Analytical DB | DuckDB | In-notebook analytics |
+  | Transformation | dbt-core 1.11 | Data modelling and testing |
+  | Orchestration | SQLMesh | Pipeline scheduling and state management |
+  | Notebooks | Jupyter Lab | Interactive development environment |
+  | Cloud Notebooks | Google Colab | JAX-compatible environment for Meridian |
+  | Analytics Engineering | [mmm-analytics-engineering](https://github.com/terrymhennah/mmm-analytics-engineering) | dbt vs SQLMesh standalone comparison |
+  | LLM (local) | Ollama + DeepSeek-R1 | Research assistance (offline) |
+                                                                                                      
 ## Notebooks
 
 ### Notebook 01 — PyMC-Marketing (Bayesian MMM)
@@ -231,7 +230,7 @@ This work addresses an identified gap in the MMM literature: whilst Unified Mark
   **[mmm-analytics-engineering](https://github.com/terrymhennah/mmm-anal
   ytics-engineering)** — Standalone analytics engineering repo with a   
   hands-on dbt vs SQLMesh comparison using the same MMM pipeline data.
-  
+
 ---
 ## Author
 
