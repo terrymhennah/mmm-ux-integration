@@ -28,3 +28,4 @@ outputs/models/*.pkl
 
 # OS
 .DS_Store
+test_meridian.py

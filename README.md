@@ -10,7 +10,7 @@
 
 ### The Problem
 
-Traditional Marketing Mix Modelling (MMM) frameworks focus on media channel attribution (TV, digital, social, search, radio) alongside macroeconomic indicators and seasonality. Despite substantial evidence that User Experience (UX) metrics — such as NPS score, bounce rate, session duration, and conversion rate — significantly influence digital conversion outcomes, **none of the leading open-source Bayesian MMM frameworks incorporate UX metrics as model parameters**.
+Traditional Marketing Mix Modelling (MMM) frameworks focus on media channel attribution (TV, digital, social, search, radio) alongside macroeconomic indicators and seasonality. Despite substantial evidence that User Experience (UX) metrics — such as NPS score, bounce rate, session duration, and conversion rate — significantly influence digital conversion outcomes, none of the leading open-source Bayesian MMM frameworks incorporates UX metrics as model parameters.
 
 This creates a critical measurement gap: marketing practitioners cannot quantify the ROI of UX improvements using the same attribution methodology applied to media spend, potentially leading to:
 - Misattribution of marketing effectiveness
@@ -121,7 +121,7 @@ Raw CSV → PostgreSQL (storage) → dbt (transformation) → SQLMesh (schedulin
 **Key Features Demonstrated:**
 - Geometric adstock transformation for media carryover effects
 - Logistic saturation curves for diminishing returns
-- UX metrics as control variables in Bayesian model
+- UX metrics as control variables in a Bayesian model
 - Posterior distribution analysis and credible intervals
 - Media contribution decomposition
 - Budget optimisation under uncertainty
@@ -196,10 +196,10 @@ Navigate to `notebooks/` and run cells sequentially.
 ## Roadmap
 
 ### Phase 1 — Proof of Concept ✅ (Current)
-- [x] UX-enhanced MMM implemented across all 3 frameworks
-- [x] Data engineering pipeline (dbt + SQLMesh + PostgreSQL)
-- [x] Synthetic dataset with 5 media channels + 5 UX metrics
-- [x] Jupyter notebooks with full documentation
+- [1] UX-enhanced MMM implemented across all 3 frameworks
+- [2] Data engineering pipeline (dbt + SQLMesh + PostgreSQL)
+- [3] Synthetic dataset with 5 media channels + 5 UX metrics
+- [4] Jupyter notebooks with full documentation
 
 ### Phase 2 — Full Dissertation (In Development)
 - [ ] Standard MMM baseline (media only) for each framework
@@ -214,13 +214,13 @@ Navigate to `notebooks/` and run cells sequentially.
 
 ## Research Context
 
-This work addresses an identified gap in the MMM literature: whilst Unified Marketing Measurement (UMM) frameworks integrate MMM with multi-touch attribution, none of the leading open-source implementations incorporate UX quality metrics as model parameters. This research bridges econometric marketing measurement and conversion rate optimisation (CRO).
+This work addresses an identified gap in the MMM literature: whilst Unified Marketing Measurement (UMM) frameworks integrate MMM with multi-touch attribution, none of the leading open-source implementations incorporates UX quality metrics as model parameters. This research bridges econometric marketing measurement and conversion rate optimisation (CRO).
 
 **Key References:**
 - Jin et al. (2017) — Bayesian methods for media mix modelling with carryover and shape effects. Google Inc.
 - PyMC Labs (2025) — PyMC-Marketing: Bayesian marketing toolbox
 - Google Developers (2025) — Meridian: Bayesian inference
-- Facebook Experimental (2024) — Robyn: Open-source marketing mix modeling
+- Facebook Experimental (2024) — Robyn: Open-source marketing mix modelling
 
 ---
 

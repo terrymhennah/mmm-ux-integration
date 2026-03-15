@@ -157,11 +157,10 @@ This proof of concept successfully demonstrates that:
 
 1. **Technical integration is feasible** — UX metrics can be incorporated into all three leading Bayesian MMM frameworks using existing framework capabilities
 2. **Data engineering is production-ready** — a full dbt + SQLMesh + PostgreSQL pipeline supports operationalisation
-3. **The research gap is real** — none of the three frameworks provide UX integration out of the box; this research fills an identified gap in the MMM literature
+3. **The research gap is real** — none of the three frameworks provides UX integration out of the box; this research fills an identified gap in the MMM literature
 4. **The dissertation is viable** — the infrastructure, tooling, and methodology are in place to conduct the full comparative study
 
-The full dissertation will determine whether UX integration *statistically improves* model performance — the central research question this POC was designed to validate as technically achievable.
+The full dissertation will determine whether UX integration statistically improves model performance, the central research question this POC was designed to validate as technically feasible.
 
+MSc Dissertation POC | March 2026*
 ---
-
-*Terry M. Hennah — MSc Dissertation POC | March 2026*
