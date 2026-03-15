@@ -46,6 +46,7 @@ mmm-ux-integration/
 ├── notebooks/
 │   ├── 01_pymc_marketing_mmm.ipynb    # PyMC-Marketing: UX-enhanced MMM
 │   ├── 02_meridian_mmm.ipynb          # Meridian: UX-enhanced MMM
+|   ├── 02_meridian_mmm_colab.ipynb    # Meridian: Google Colab ✅ (recommended)
 │   ├── 03_robyn_mmm.ipynb             # Robyn: UX-enhanced MMM (R kernel)
 │   ├── 04_data_pipeline_duckdb_dbt.ipynb  # Data engineering pipeline
 │   └── 05_cross_framework_comparison.ipynb  # Coming in full dissertation
