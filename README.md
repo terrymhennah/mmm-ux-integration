@@ -111,9 +111,10 @@ Raw CSV → PostgreSQL (storage) → dbt (transformation) → SQLMesh (schedulin
 | Orchestration | SQLMesh | Pipeline scheduling and state management |
 | Notebooks | Jupyter Lab | Interactive development environment |
 | LLM (local) | Ollama + DeepSeek-R1 | Research assistance (offline) |
-
----
-
+| Analytics Engineering | [mmm-analytics-engineering](https://github.c
+  om/terrymhennah/mmm-analytics-engineering) | dbt + SQLMesh pipeline   
+  (standalone) |
+                                                                           
 ## Notebooks
 
 ### Notebook 01 — PyMC-Marketing (Bayesian MMM)
@@ -225,6 +226,13 @@ This work addresses an identified gap in the MMM literature: whilst Unified Mark
 
 ---
 
+## Related Projects                                                   
+                                                                        
+  **[mmm-analytics-engineering](https://github.com/terrymhennah/mmm-anal
+  ytics-engineering)** — Standalone analytics engineering repo with a   
+  hands-on dbt vs SQLMesh comparison using the same MMM pipeline data.
+  
+---
 ## Author
 
 **Terry M. Hennah**
